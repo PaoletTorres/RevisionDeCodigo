@@ -91,16 +91,11 @@ html {
     border: 1px solid var(--grey);
   }
   
-  .success {
+  .Button { /* se cambia a button para mejorar claridad*/
     border: 1px solid red;
   }
   
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1, h2, h3, h4, h5, h6 { /*se ordenan en una sola línea*/
     color: white;
     margin-top: 0;
     line-height: 1;
