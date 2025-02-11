@@ -18,7 +18,7 @@ async function displayUser(username) { // se agrega async ya que se esta usando 
 } catch (err){ //se agrega catch pprque el error será capturado en la función par amostrar el mensaje en consola 
     handleError(err); 
 }
-
+}
 function handleError(err) {
   console.log('OH NO!');
   console.log(err);
